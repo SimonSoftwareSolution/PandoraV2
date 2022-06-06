@@ -10,7 +10,7 @@ function App() {
         <h2>🅿🅰🅽🅳🅾🆁🅰 ❷⓿❷❷</h2>
       </div>
       <div className="card">
-        <img src={titelbild}/>
+        <img src={titelbild} alt=''/>
         <div className="card-body">
           <h5 className="card-title">Willkommen</h5>
           <p className="card-text">
