@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Anfahrt from './pages/anfahrt';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../src/App.css';
+import Packliste from './pages/packliste';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -17,6 +18,7 @@ root.render(
       <Routes>
       <Route path="/" element={<App />} />
       <Route path="anfahrt" element={<Anfahrt />} />
+      <Route path="packliste" element={<Packliste />} />
     </Routes>
   </BrowserRouter>
   </React.StrictMode>

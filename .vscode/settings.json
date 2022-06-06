@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/03673c25-7ab2-49dd-b096-5a4ab0da50b1/resourceGroups/Pandora2022_group/providers/Microsoft.Web/sites/Pandora2022",
+    "appService.deploySubpath": "my-app"
+}
