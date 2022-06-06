@@ -2,7 +2,7 @@ import anfahrt from './../images/anfahrt.png'
 
 export default function Anfahrt() {
     return (
-      <div className='container d-flex flex-column justify-content-center align-items-center'>
+      <div className='container App'>
         <div className='card my-3' style={{borderColor: 'white'}}>Anfahrt</div>
         <div className="card">
           <img src={anfahrt} alt='Logo'/>

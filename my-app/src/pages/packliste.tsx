@@ -2,8 +2,8 @@ import packliste from './../images/packliste.jpg'
 
 export default function Packliste() {
     return (
-      <div className='container d-flex flex-column justify-content-center align-items-center'>
-        <div className='card my-3' style={{borderColor: 'white'}}>Anfahrt</div>
+      <div className='container App'>
+        <div className='card my-3 mx-3' style={{borderColor: 'white'}}>Anfahrt</div>
         <div className="card">
           <img src={packliste} alt='Logo'/>
           <div className="card-body">
