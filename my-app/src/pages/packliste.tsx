@@ -9,8 +9,8 @@ export default function Packliste() {
             <h5 className="card-title mb-3">Damits euch gut geht</h5>
             <p className="card-text">
             1. Zelt, Schlafsack, Isomatte<br/>
-            2. Altes T-Shirt zum Bedrucken mit Pandora-Logo, neben den sonstigen Klamotten
-            und Badesachen<br/>
+            <h6>2. Altes T-Shirt zum Bedrucken mit Pandora-Logo, neben den sonstigen Klamotten
+            und Badesachen</h6>
             3. SCHNELLTESTERGEBNIS (auch Selbsttest)<br/>
             4. BIERBECHER (Es gibt eine Zapfanlage und wir wollen wenig Müll also bringt euch
             n schönen Becher mit, bitte KEIN GLAS!)<br/>

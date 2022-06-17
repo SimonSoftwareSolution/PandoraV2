@@ -1,6 +1,6 @@
 import React from 'react';
 import titelbild from './images/titelbild.jpg';
-import drache from './images/wald.jpeg';
+import drache from './images/selbstgemalt.jpg';
 import { Link } from 'react-router-dom';
 import './App.css';
 import { url } from 'inspector';
