@@ -3,10 +3,9 @@ import anfahrt from './../images/anfahrt.png'
 export default function Anfahrt() {
     return (
       <div className='container App'>
-        <div className='card my-3' style={{borderColor: 'white'}}>Anfahrt</div>
-        <div className="card">
+        <div className="card mt-5">
           <img className="img-fluid" src={anfahrt} alt='Logo'/>
-          <div className="card-body">
+          <div className="card-body mb-5">
             <h5 className="card-title">Lets go</h5>
             <p className="card-text">
             Liebe Leute, wegen der Anfahrt: die Zielhaltestelle selbst heißt Brodersdorf und wird von der Buslinie 14 von Kiel aus bedient. Von dort aus lauft ihr noch ca. 15-20 Min. bis zum Gelände. Falls ihr schon gebucht habt, wären Laboe/ Röbsdorf, Probsteierhagen etc. auch nicht ganz falsch. 

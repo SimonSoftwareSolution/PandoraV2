@@ -7,10 +7,7 @@ import { url } from 'inspector';
 
 function App() {
   return (
-    <div className="App container d-flex flex-column h-100">
-        <div className="card my-3 noBorder">
-        <h2>🅿🅰🅽🅳🅾🆁🅰 ❷⓿❷❷</h2>
-      </div>
+    <div className="App container d-flex flex-column h-100 mt-5">
       <div className="card" style={{backgroundColor: 'white'}}>
         <img  className="img-fluid" alt="" src={drache}/>
         <div className="card-body">

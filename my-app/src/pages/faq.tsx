@@ -3,13 +3,11 @@ import anfahrt from './../images/party.jpeg'
 export default function FAQ() {
     return (
       <div className='container App'>
-        <div className='card my-3' style={{borderColor: 'white'}}>FAQ</div>
-        <div className="card">
+        <div className="card mt-5">
           <img className="img-fluid" src={anfahrt} alt='Logo'/>
-          <div className="card-body">
-            <h5 className="card-title">Hallo ihr Lieben</h5>
+          <div className="card-body mb-5">
             <p className="card-text">
-            Wer organisiert Pandora?<br/><br/>
+            <h5>Wer organisiert Pandora?</h5>
             Hey, unser Kernorgateam besteht aus Hanna, Kamran, Hannes, Tabea R., Moritz, Dennis,
             Tabea M., Elena, Simon, Lorenz, Tanja, Pauline, Raul und Rosa. Im Grunde waren wir
             ursprünglich eine Karlsruher Clique, bevor es uns in die weite Welt verstreute und wir freuen
@@ -23,7 +21,7 @@ export default function FAQ() {
             wieder zugänglich machten. Um die dort sehr lebendige Wildnis zu schützen, bitten wir euch
             daher um ein paar Selbstverständlichkeiten: keinen Müll zu hinterlassen und besonders im
             Umgang mit Feuer Acht zu geben.<br/><br/>
-            Pandora?
+            <h5>Pandora?</h5>
             Aus dem altgriechischen übersetzt und frei interpretiert: „pan“ bedeutet ,all‘ oder ‚gesamt‘
             und „doron“ ‚Gabe‘ oder ‚Geschenk‘. Im übertragenen Sinne kann mensch es also als „alles
             ist ein Geschenk“ verstehen. Und das Leben ist ein Geschenk – unser eigenes, das unserer
@@ -49,7 +47,7 @@ export default function FAQ() {
             unser Plan einen möglichen Überschuss zusätzlich zu den 5€ p. Person, die im Kunstbeitrag
             enthalten, sind, an Hans, als Dank für die einschränkungsfreie Nutzung des Grundstücks, zu
             übergeben.<br/><br/>
-            Wie kann ich euch unterstützen?
+            <h5>Wie kann ich euch unterstützen?</h5>
             Gute Vibes &amp; nur Liebe! &lt;3 sind auf jeden Fall das Wichtigste. Wir hoffen alle, dass wir das
             Festival reibungslos über die Bühne bringen und gemeinsam eine wahnsinnig schöne Zeit
             erleben werden, die uns in Erinnerung bleibt und uns in so manchen Momenten der Zukunft
@@ -62,19 +60,19 @@ export default function FAQ() {
             Nachtwache, Frühstückscafé, Dürüm-Bäcker, Pando-Barkeeper und Feuerwachen. Und
             konzeptionell ist es auch praktisch vorgesehen, dass wir am Ende des Tages ALLE zum
             Erfolg des Festivals beigetragen haben!<br/><br/>
-            Auf einer Skala von 0 bis 10, wie cool wird Pandora_v2-2?<br/><br/>
+            <h5>Auf einer Skala von 0 bis 10, wie cool wird Pandora_v2-2?</h5>
             11 sagt unser Bauchgefühl.
             Nein, praktisch nicht messbar, für schöne Erlebnisse gibt es keinen Messwert, aber wenn es
             genauso schön werden würde, wie Pandora_1, dann wären wir schon sehr gut dabei &lt;3<br/><br/>
-            Schietwedda?
+            <h5>Schietwedda?</h5>
             Dann müssen wir wohl einen Regentanz aufführen, wir sind doch nicht aus Zucker!<br/><br/>
-            Gibt es Nachbarn?
+            <h5> Gibt es Nachbarn?</h5>
             Ja, also bitte schön nett und freundlich sein, wir sind Gäste! Aber da machen wir uns in
             unserer Konstellation von Leuten keine Sorgen. Die Nachbarn sind informiert und hatten nur
             Einwände bezüglich der Lautstärke, das regeln wir vor Ort und im Konsens mit den
             Anwohnern. Im Notfall müssten wir natürlich die Musik etwas drosseln. Das bringt uns zum
             nächsten Punkt:<br/><br/>
-            Ordnungsamt, Gesundheitsamt &amp; Polizei
+            <h5>Ordnungsamt, Gesundheitsamt und Polizei</h5>
             Wir haben mit den Ämtern gesprochen und ihr Einverständnis für unser Vorhaben. Die
             Polizei wird informiert sein, muss aber persönlich vorbeikommen, sollte sich jemensch
             beschweren. Da wir aus unserer Sicht grünes Licht haben, gilt es freundlich zu sein, denn

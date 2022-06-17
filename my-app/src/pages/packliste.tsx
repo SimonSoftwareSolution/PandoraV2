@@ -3,10 +3,9 @@ import packliste from './../images/bar.jpeg'
 export default function Packliste() {
     return (
       <div className='container App'>
-        <div className='card my-3 mx-3' style={{borderColor: 'white'}}>Packliste</div>
-        <div className="card">
+        <div className="card mt-5">
           <img className="img-fluid" src={packliste} alt='Logo'/>
-          <div className="card-body"> 
+          <div className="card-body mb-5"> 
             <h5 className="card-title mb-3">Damits euch gut geht</h5>
             <p className="card-text">
             1. Zelt, Schlafsack, Isomatte<br/>
@@ -41,7 +40,7 @@ export default function Packliste() {
             Gepäck passt und alles was ihr braucht bekommt ihr in Laboe 3,5 km weiter im
             Supermarkt.<br/><br/>
             Empfehlung des Hauses: Sonnenuntergangspizza an der Mündung der Kieler Förde
-            in Laboe. Hoffentlich ist lieferbar (y)
+            in Laboe.
             Bald geht es los meine Freunde!!!! ❤️❤️❤️
             </p>
       </div>
