@@ -8,6 +8,8 @@ import Anfahrt from './pages/anfahrt';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../src/App.css';
 import Packliste from './pages/packliste';
+import FAQ from './pages/faq';
+import Bildergalerie from './pages/lastyear';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -19,6 +21,8 @@ root.render(
       <Route path="/" element={<App />} />
       <Route path="anfahrt" element={<Anfahrt />} />
       <Route path="packliste" element={<Packliste />} />
+      <Route path="faq" element={<FAQ />} />
+      <Route path="lastyear" element={<Bildergalerie />} />
     </Routes>
   </BrowserRouter>
   </React.StrictMode>

@@ -5,7 +5,7 @@ export default function Anfahrt() {
       <div className='container App'>
         <div className='card my-3' style={{borderColor: 'white'}}>Anfahrt</div>
         <div className="card">
-          <img src={anfahrt} alt='Logo'/>
+          <img className="img-fluid" src={anfahrt} alt='Logo'/>
           <div className="card-body">
             <h5 className="card-title">Lets go</h5>
             <p className="card-text">
