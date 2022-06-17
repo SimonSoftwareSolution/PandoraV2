@@ -24,16 +24,16 @@ function App() {
         </div>
       </div>
       <div className="card my-3">
-        <Link to="/faq" style={{color : 'black', textDecoration : 'none'}} >FAQ</Link>
+        <Link to="/faq" style={{color : 'black', textDecoration : 'none'}} ><h2>FAQ</h2></Link>
       </div>
       <div className="card my-3">
-        <Link to="/Anfahrt" style={{color : 'black', textDecoration : 'none'}} >Anfahrt</Link>
+        <Link to="/Anfahrt" style={{color : 'black', textDecoration : 'none'}} ><h2>Anfahrt</h2></Link>
       </div>
       <div className="card my-3">
-        <Link to="/Packliste" style={{color : 'black', textDecoration : 'none'}}>Packliste</Link>
+        <Link to="/Packliste" style={{color : 'black', textDecoration : 'none'}}><h2>Packliste</h2></Link>
       </div>
-      <div className="card my-3">
-        <Link to="/lastyear" style={{color : 'black', textDecoration : 'none'}}>Letztes Jahr</Link>
+      <div className="card my-3 mb-5">
+        <Link to="/lastyear" style={{color : 'black', textDecoration : 'none'}}><h2>Letztes Jahr</h2></Link>
       </div>
     </div>
   );
